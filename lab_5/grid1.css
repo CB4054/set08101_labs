@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* Each value for grid-template-columns will change the number of columns */
+  background-color: tomato;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
