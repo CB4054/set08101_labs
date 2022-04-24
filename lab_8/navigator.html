@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interacting with the Window</title>
+  </head>
+  <body>
+    <div id="output"></div>
+
+    <script>
+      var out = document.getElementById("output");
+      out.innerHTML +=
+        "AppName: " +
+        window.navigator.appName +
+        "<br>AppVersion: " +
+        window.navigator.appVersion +
+        "<br>AppCodeName: " +
+        window.navigator.appCodeName +
+        "<br>Href: " +
+        window.location.href +
+        "<br>Protocol: " +
+        window.location.protocol +
+        "<br>Host: " +
+        window.location.host +
+        "<br>Path: " +
+        window.location.pathname +
+        "<br>Hash: " +
+        window.location.hash;
+    </script>
+  </body>
+</html>

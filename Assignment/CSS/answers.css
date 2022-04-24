@@ -1,0 +1,13 @@
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.container iframe {
+  border-radius: 25px;
+}
+
+p {
+  padding: 20px;
+  font-size: 1.25rem;
+}

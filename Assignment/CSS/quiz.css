@@ -1,0 +1,90 @@
+.container {
+  padding: 21px;
+  justify-content: center;
+  align-items: center;
+}
+
+#question {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.choice_container {
+  display: flex;
+  float: left;
+  width: 50%;
+  padding: 3px;
+  text-align: center;
+  background-color: #373e7a;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  border-radius: 15px;
+}
+
+.choice_container:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: transform 100ms;
+}
+
+.choice_id {
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.choice_data {
+  padding: 10px;
+  width: 100%;
+}
+
+#help_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+#skip_btn {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 7.5px;
+}
+
+#hint {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#hint:hover {
+  transition: transform 100ms;
+  transform: scale(1.1);
+}
+
+.clock {
+  display: flex;
+  background-color: #373e7a;
+  padding: 10px;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+#countdown {
+  padding: 2.5px;
+  justify-content: center;
+  align-items: center;
+}
+.seconds {
+  justify-content: center;
+  align-items: center;
+}

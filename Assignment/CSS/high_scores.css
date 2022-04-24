@@ -1,0 +1,18 @@
+.container h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#leaderboard {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  font-size: 1.3rem;
+  line-height: 2em;
+  list-style: none;
+}
+
+.btn {
+  margin-top: 10px;
+  min-width: 90px;
+  font-size: 1rem;
+}

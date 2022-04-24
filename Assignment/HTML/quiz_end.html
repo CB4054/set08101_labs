@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Over!</title>
+    <link rel="stylesheet" type="text/css" href="..\CSS\index.css" />
+    <link rel="stylesheet" type="text/css" href="..\CSS\quiz_end.css" />
+  </head>
+  <body>
+    <audio id ="end_sound" autoplay="autoplay" src="../Media/success.mp3" type="audio/mpeg"></audio>
+    <div class="container">
+      <div id="page_intro"><h1>You scored <p id="user_score">x</p><p>out of 10</p></h1>
+      <a href="answers.html"><button class="btn" id="answer_button">View Answers</button></a>
+      <h2 id="username_prompt">Save your score by entering your name in the box and clicking submit.</h2>
+      <input type="text" name="name" id="username" placeholder="Your name"> 
+      <button class="btn" id="score_button" type="submit" onclick="save_score(event)" disabled>Submit</button>
+      </div>
+      </div>
+      
+  </div>
+  <script src="../JS/quiz_end.js"></script>
+  </body>
+
+  <footer id="main-footer">
+    <p>Callum's Quizzes Copyright &copy 2022</p>
+  </footer>
+</html>
+
+

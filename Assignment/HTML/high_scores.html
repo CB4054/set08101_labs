@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Scores</title>
+    <link rel="stylesheet" type="text/css" href="..\CSS\index.css" />
+    <link rel="stylesheet" type="text/css" href="..\CSS\high_scores.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="high_scores.html">High Scores</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <header id="main-header"><h1>High Scores</h1></header>
+        <div id="main">
+          <ul id="leaderboard"></ul>
+          <!-- <a href="index_new.html"><button class="btn">Home</button></a> -->
+          <!-- <a href="contact_new.html"><button class="btn">Contact</button></a> -->
+          <a href="quiz.html"><button class="btn">Play Again</button></a>
+          <button class="btn" id="reset_score_btn" onclick="reset_scores()">Reset Scores</button>
+
+
+        </div>
+      </div>
+  </div>
+  <script src="../JS/high_scores.js"></script>
+  </body>
+
+  <footer id="main-footer">
+    <p>Callum's Quizzes Copyright &copy 2022</p>
+  </footer>
+</html>

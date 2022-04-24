@@ -1,0 +1,46 @@
+.container {
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#page_intro {
+  margin-bottom: 20px;
+}
+
+#contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 15px;
+  margin: 5px;
+}
+
+#contact_form input {
+  box-sizing: border-box;
+  height: 30px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+#contact_form button {
+  font-size: 1rem;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  justify-self: center;
+  background-color: #373e7a;
+  color: aliceblue;
+  border-radius: 15px;
+  min-width: 80px;
+}

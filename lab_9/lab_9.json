@@ -1,0 +1,25 @@
+{
+  "firstName": "Bob",
+  "lastName": "Bobbington",
+  "isAlive": true,
+  "age": 69,
+  "height_cm": 170.2,
+  "address": {
+    "streetAddress": "1 Streety Street",
+    "city": "Streetville",
+    "state": "ST",
+    "postalCode": "12"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "0893457803450867"
+    },
+    {
+      "number": "8234804380949"
+    }
+  ],
+
+  "children": ["Bob Jr, Betty Jr"],
+  "spose": null
+}

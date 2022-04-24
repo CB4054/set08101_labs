@@ -1,0 +1,43 @@
+.container {
+  margin-top: 100px;
+}
+
+#page_intro h1 {
+  margin-bottom: 10px;
+  font-size: 2.25rem;
+}
+
+#answer_button {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+#page_intro h2 {
+  font-size: 1.25rem;
+  padding: 25px;
+}
+
+#page_intro input {
+  height: 30px;
+  width: 300px;
+  border-radius: 3px;
+  border: none;
+  text-indent: 10px;
+}
+
+#score_button {
+  justify-content: center;
+  padding: 3.5px;
+  margin: 4px;
+  border-radius: 3px;
+}
+
+.btn {
+  margin-top: 10px;
+  font-size: 1rem;
+  min-width: 100px;
+}
+
+#score_button:disabled:hover {
+  cursor: not-allowed;
+}
